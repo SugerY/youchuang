@@ -1,0 +1,75 @@
+/* pages/production/production.wxss */
+swiper image{
+   width:100%;
+   height: 500rpx;
+}
+
+.tc-container{
+  margin: 20rpx 0;
+}
+
+.tc-img{
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+
+.taocan{
+  width: 230rpx;
+  height: 120rpx;
+  border: 1px gray solid;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 10rpx;
+  margin-top: 15rpx;
+}
+.taocan-text{
+  line-height: 120rpx;
+}
+.taocan-container{
+  margin-top: 15rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.tc-jieshao-container{
+  display: flex;
+  flex-direction: column;
+}
+.tc-neirong{
+  display: flex;
+  flex-direction: row;
+  border: 1px gray solid;
+  height: 150rpx;
+  border-radius: 10px;
+  margin-left: 10rpx;
+  width: 720rpx;
+  margin-top: 20rpx;
+}
+.tc-jieshao-text-container{
+  margin: auto;
+  margin-left: 5rpx;
+}
+.tc-jieshao-img-container{
+  width: 150rpx;
+  height: 150rpx;
+  margin-right: 2rpx;
+}
+.tc-jieshao-img{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 10px;
+}
+.pay-container{
+  border: 1px gray solid;
+  width: 700rpx;
+  height: 100rpx;
+  margin: 30rpx 25rpx 0rpx;
+  border-radius: 10px;
+  background-color: gray;
+  text-align: center;
+}
+.pay-text{
+  line-height: 100rpx;
+}

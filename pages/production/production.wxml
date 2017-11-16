@@ -1,0 +1,70 @@
+<!--pages/production/production.wxml-->
+<view>
+  <view>
+    <swiper indicator-dots='{{true}}' autoplay="{{true}}" interval='3000'>
+        <swiper-item>
+          <image src="/pages/images/lunbo5.jpg"/>
+        </swiper-item>
+        <swiper-item>
+          <image src="/pages/images/lunbo6.jpg"/>
+        </swiper-item>
+        <swiper-item>
+          <image src="/pages/images/lunbo7.jpg"/>
+        </swiper-item>
+    </swiper>
+  </view>
+  <view class='tc-container'>
+    <image class='tc-img' src='/pages/images/xiaoren.jpg' ></image>
+    <text class='tc-text'>选择套餐</text>
+    <view class='taocan-container'>
+      <view class='taocan'>
+        <text class='taocan-text'>988小程序</text>
+      </view>
+      <view class='taocan'>
+        <text class='taocan-text'>1890小程序</text>
+      </view>
+      <view class='taocan'>
+        <text class='taocan-text'>2980小程序</text>
+      </view>
+      <view class='taocan'>
+        <text class='taocan-text'>3890小程序</text>
+      </view>
+      <view class='taocan'>
+        <text class='taocan-text'>定制小程序</text>
+      </view>
+    </view>
+  </view>
+  <view>
+    <image class='tc-img' src='/pages/images/xiaoren.jpg' ></image>
+    <text class='tc-text'>套餐介绍</text>
+  </view>
+  <view class='tc-jieshao-container'>
+    <view class='tc-neirong'>
+      <view class='tc-jieshao-text-container'>
+        <text class='tc-jieshao-text'>小程序申请(必选)\n39元</text>
+      </view>
+      <view class='tc-jieshao-img-container'>
+       <image class='tc-jieshao-img' src='/pages/images/jia.jpg'></image>
+      </view>
+    </view>
+    <view class='tc-neirong'>
+      <view class='tc-jieshao-text-container'>
+        <text class='tc-jieshao-text'>随心图文编辑(必选)\n39元</text>
+      </view>
+      <view class='tc-jieshao-img-container'>
+       <image class='tc-jieshao-img' src='/pages/images/jia.jpg'></image>
+      </view>
+    </view>
+    <view class='tc-neirong'>
+      <view class='tc-jieshao-text-container'>
+        <text class='tc-jieshao-text'>在附近小程序出现(必选)\n39元</text>
+      </view>
+      <view class='tc-jieshao-img-container'>
+       <image class='tc-jieshao-img' src='/pages/images/jia.jpg'></image>
+      </view>
+    </view>
+  </view>
+  <view class='pay-container'>
+    <text class='pay-text'>支付并预约</text>
+  </view>
+</view>

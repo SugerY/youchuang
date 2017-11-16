@@ -1,0 +1,16 @@
+<!--pages/team/team.wxml-->
+<view>
+  <view>
+    <swiper indicator-dots='{{true}}' autoplay="{{true}}" interval='3000'>
+        <swiper-item>
+          <image src="/pages/images/lunbo5.jpg"/>
+        </swiper-item>
+        <swiper-item>
+          <image src="/pages/images/lunbo6.jpg"/>
+        </swiper-item>
+        <swiper-item>
+          <image src="/pages/images/lunbo7.jpg"/>
+        </swiper-item>
+    </swiper>
+  </view>
+</view>

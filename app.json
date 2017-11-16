@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/firm/firm",
+    "pages/production/production",
+    "pages/team/team"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "优创信息",
+    "navigationBarTextStyle":"black"
+  }
+}
